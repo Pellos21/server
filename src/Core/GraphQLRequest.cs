@@ -43,7 +43,7 @@ namespace GraphQL.Server
         /// <summary>
         /// Values for any Variables defined by the Operation (optional).
         /// </summary>
-        public Inputs Inputs { get; set; }
+        public Inputs Variables { get; set; }
 
         /// <summary>
         /// This entry is reserved for implementors to extend the protocol however they see fit (optional).
